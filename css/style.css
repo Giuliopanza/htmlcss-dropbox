@@ -14,6 +14,7 @@
     --border-container: #d3d3d3;
     --color-check: #0000ff;
     --color-periodo: #808080;
+    --bg-footer:black;
 }
 
 .container{
@@ -253,4 +254,33 @@ header{
     width: 70%;
     font-size: 8vh;
     margin-bottom: 10vh; 
+}
+
+footer{
+    background-color: var(--bg-footer);
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    color: var(--color-text1);
+}
+
+.ul-footer{
+    list-style-type: none;
+    color: var(--color-text1);
+}
+
+.title-ul-footer{
+    margin-bottom: 4vh;
+}
+
+.ul-footer li:not(.title-ul-footer){
+    margin-bottom: 2vh;
+}
+
+.container-ul-footer{
+    margin-bottom: 10vh;
+}
+
+#hr-footer{
+    width: 10%;
+    margin-bottom: 5vh;
 }
