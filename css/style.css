@@ -226,6 +226,25 @@ header{
     background-color: var(--color-button2);
 }
 
-.section-3{
+.section-3, .section-4{
     margin-bottom: 30vh;
+}
+
+.container-section-4{
+    width: 30%;
+    margin: 5vh 0;
+}
+
+.img-section-4{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.text-section-4{
+    margin: 5vh 0;
+}
+
+#title-section-4{
+    padding-bottom: 10vh;
+    font-size: 8vh;    
 }
