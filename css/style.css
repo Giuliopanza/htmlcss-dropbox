@@ -5,9 +5,13 @@
 }
 
 :root{
+    --bg-header: #ffffff;
     --color-button1: #0000ff;
     --color-text1: #ffffff;
     --bg-section1: 	#00ffff;
+    --border-container: #d3d3d3;
+    --color-check: #0000ff;
+    --color-periodo: #808080;
 }
 
 .container{
@@ -48,10 +52,12 @@ header div .ul-header{
 }
 
 header{
+    background-color: var(--bg-header);
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .section-1{
@@ -64,9 +70,9 @@ header{
 }
 
 #title1{
-    padding-top: 10vh;
     font-size: 15vh;
     text-align: left;
+    padding-top: 10vh;
 }
 
 .container-text1{
@@ -96,4 +102,104 @@ header{
 
 .container-relative{
     position: relative;
+}
+
+#title2{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    font-size: 8vh;
+}
+
+#fatt-ann{
+    margin-left: 5%;
+    margin-bottom: 10vh;
+}
+
+.container-30{
+    width: 30%;
+    border: 2px solid var(--border-container);
+    justify-self: end;
+    margin-bottom: 10vh;
+}
+
+.container-between{
+    justify-content: space-between;
+}
+
+.intestazione{
+    text-align: center;
+    border: solid var(--border-container);
+    border-width: 0 0 2px 0;
+    padding: 2vh 0;
+}
+
+.corpo{
+    padding: 5vh 0;
+}
+
+.spesa{
+    margin: 2vh 0;
+}
+
+.periodo{
+    color: var(--color-periodo);
+}
+
+.icon{
+    padding: 5vh 0;
+    width: 90%;
+}
+
+.button-3{
+    width: 100%;
+    margin: 10vh auto;
+    background-color: var(--color-button1);
+    color: var(--color-text1);
+    padding: 5%;
+    border: none;
+}
+
+.hr-corpo{
+    margin: 5vh 0;
+    width: 20%;
+}
+
+.title-ul{
+    margin-bottom: 5vh;
+}
+
+.ul-corpo{
+    list-style-type: none;
+    width: 90%;
+}
+
+.ul-corpo li{
+    margin-bottom: 2vh;
+}
+
+.container-team{
+    border: 2px solid var(--border-container);
+    margin-bottom: 30vh;    
+}
+
+.container-team-corpo{
+    padding: 5vh;
+    align-items: start;
+}
+
+#button-4{
+    width: 30%;
+    background-color: var(--color-button1);
+    color: var(--color-text1);
+    padding: 1%;
+    border: none;
+}
+
+#p-team1{
+    margin-top: 2vh;
+}
+
+#p-team2{
+    width: 70%;
+    margin: 5vh 0 3vh 3%;
 }
