@@ -15,6 +15,7 @@
     --color-check: #0000ff;
     --color-periodo: #808080;
     --bg-footer:black;
+    --hover-button:#0056b3;
 }
 
 .container{
@@ -24,14 +25,11 @@
 header div{
     align-items: center;
     width: 50%;
-    padding: 2%;
-
 }
 
 header>ul{
     justify-content: flex-end;
     width: 50%;
-    padding: 2%;
 }
 
 header div .ul-header{
@@ -45,13 +43,24 @@ header div .ul-header{
 
 .li-header{
     margin: 0 2%;
+    cursor: pointer;
+    padding: 4% 0;
 }
 
-#button-1{
+.li-header-hover:hover{
+    border-bottom: 2px black solid;
+}
+
+.button-1{
     background-color: var(--color-button1);
     color: var(--color-text1);
-    padding: 10%;
+    padding: 10% 15%;
     border: none;
+}
+
+.hover-button:hover {
+    cursor: pointer;
+    background-color: var(--hover-button);
 }
 
 header{
@@ -82,7 +91,7 @@ header{
     width: 40%;
 }
 
-#button-2{
+.button-2{
     margin: 10vh 0;
     background-color: var(--color-button1);
     color: var(--color-text1);
@@ -190,7 +199,7 @@ header{
     align-items: start;
 }
 
-#button-4{
+.button-4{
     width: 30%;
     background-color: var(--color-button1);
     color: var(--color-text1);
@@ -225,6 +234,7 @@ header{
     padding: 2%;
     border: 2px solid var(--border-button);
     background-color: var(--color-button2);
+    cursor: pointer;
 }
 
 .section-3, .section-4{
